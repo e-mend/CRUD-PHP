@@ -23,12 +23,6 @@
 
     <div class="lgn-container-main">
 
-    <div class="animation-container">
-        <div class="charger-animation">
-            <ion-icon name="battery-dead-outline"></ion-icon>
-        </div>
-    </div>
-
         <form action="login.php" method="POST">
 
         <div class="form__group field">

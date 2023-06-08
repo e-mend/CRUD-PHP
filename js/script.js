@@ -1,4 +1,4 @@
-const animation = document.querySelector(".charger-animation");
+const animation = document.querySelector("img");
 const inputLgn = document.querySelector("#user");
 const inputPass = document.querySelector("#pass")
 
@@ -10,22 +10,10 @@ console.log(inputs);
 
 
 function animationCharger(){
-    let innerAnimation = animation.innerHTML;
+    let imgAnimation = animation.src;
     let innerLgn = inputLgn.innerHTML;
     let innerPass = inputPass.innerHTML;
 
-    if(innerLgn == ""){
-        innerAnimation = "";
-        innerAnimation = '<ion-icon name="battery-half-outline"></ion-icon>';
-
-    }if(innerPass == "") {
-        innerAnimation = "";
-        innerAnimation = '<ion-icon name="battery-full-outline"></ion-icon>';
-
-    } else {
-        innerAnimation = "";
-        innerAnimation = '<ion-icon name="battery-charging-outline"></ion-icon>';
-    }
 }
 
     inputs[0].addEventListener("input", (event) =>{
